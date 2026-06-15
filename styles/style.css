@@ -1,0 +1,29 @@
+
+
+body {
+  width: 1440px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+header {
+  background-image: url(../Assets/Hero-bg.png);
+  width: 100%;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 150px;
+  font-size: 20px;
+}
+.btn {
+  background: #4e47ff;
+  color: white;
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  padding:;
+}
+.hero {
+}
