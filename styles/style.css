@@ -1,21 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
-
-body {
-  width: 1440px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
+
 header {
   background-image: url(../Assets/Hero-bg.png);
-  width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
 }
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 10px 150px;
-  font-size: 20px;
+  justify-content: space-around;
+  padding: 10px;
 }
 .btn {
   background: #4e47ff;
@@ -26,4 +27,7 @@ header {
   padding:;
 }
 .hero {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 40px;
 }
